@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MySocial-Media</title>
+  <link rel="stylesheet" href="./style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.halo.min.js"></script>
+<script>
+  window.addEventListener('DOMContentLoaded', () => {
+    VANTA.HALO({
+      el: "#vanta",
+    mouseControls: true,
+    touchControls: true,
+    gyroControls: true,
+    minHeight: 200.00,
+    minWidth: 200.00,
+    amplitudeFactor: 3.00,
+    size: 0.90
+
+    })
+    setTimeout (() => {
+    const main = document.querySelector('main')
+    main.style.opacity = 1 
+    main.style.filter = 'blur(0px)' 
+    },1000)
+})
+
+    
+
+
+</script>
+
+</head>
+<body id="vanta">
+    <main>
+    <header>
+      <img src="./img/myprof.jpg" alt="">
+      <h1>@Yudhistia</h1>
+    </header> 
+    <ul>
+      <li>
+          <a target='_blank`' href="https://wa.me/08981194430?text=let%20add%20contacts"><i class='bx bxl-whatsapp'></i>WhatsApp</a>
+      </li>
+        <li>
+        <a targe='_blank' href="https://www.facebook.com/yudhistia.rahman.31"><i class='bx bxl-facebook-circle'></i>Facebook</a>
+      </li>
+        <li>
+        <a targe='_blank' href="https://www.instagram.com/yudhistia_20/?hl=id"><i class='bx bxl-instagram'></i>Instagram</a>
+      </li>
+        <li>
+        <a targe='_blank' href="https://github.com/isKazumi"><i class='bx bxl-github' ></i>Github</a>
+      </li>
+    </ul>
+      <footer>
+        <stronge><i>I made witdh <span>LOVE</span>😽<i></stronge>
+      </footer>
+  </main>
+</body>
+</html>
